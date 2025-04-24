@@ -1,12 +1,9 @@
-# React + Vite
+# React : A Simple Ecommerce App UI Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Figma Design
 
-Currently, two official plugins are available:
+- [Figma Complete Design](https://www.figma.com/design/IfS34Ib1yQAk6lZB7XJwgD/Full-E-Commerce-Website-UI-UX-Design--Community-?node-id=1-3&p=f&t=Ofvn55tPZAygTIug-0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### A Sample Screen Shot of the Design
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Ecommerce App UI Design](public/figma-design/E-Commerce%20HomePage.jpg)
