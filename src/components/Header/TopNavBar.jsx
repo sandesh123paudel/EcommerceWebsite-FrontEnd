@@ -45,7 +45,7 @@ const TopNavBar = () => {
           py={2}
         >
           <Text>English</Text>
-          <Icon fontSize={"sm"} as={IoIosArrowDown} />
+          <Icon fontSize={"md"} fontWeight={"bold"} as={IoIosArrowDown} />
         </Stack>
       </Flex>
     </Box>
