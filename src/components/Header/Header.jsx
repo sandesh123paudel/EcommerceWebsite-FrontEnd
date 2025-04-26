@@ -6,8 +6,7 @@ import {
   Icon,
   InputGroup,
   InputRightElement,
-  Input
-  
+  Input,
 } from "@chakra-ui/react";
 import React from "react";
 import { BiSearch } from "react-icons/bi";
@@ -24,10 +23,13 @@ const Header = () => {
       py={{ base: 1, md: 2 }}
     >
       <Flex
+        gap={{
+          base: 3,
+        }}
         align={{
           base: "center",
           md: "center",
-          lg: "end",
+          lg: "center",
         }}
         justify={{
           base: "space-between",
@@ -46,7 +48,7 @@ const Header = () => {
         {/* Left - Logo */}
         <Box flex="1">
           <Text textStyle="h2" fontWeight="bold">
-            Exclusive
+            Exclusive Collection
           </Text>
         </Box>
 
