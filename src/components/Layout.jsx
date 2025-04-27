@@ -1,15 +1,15 @@
 import React from "react";
 import TopNavBar from "./Header/TopNavBar";
 import Header from "./Header/Header";
-import SideDrawer from "./Header/SideDrawer";
-
+import Footer from "./Footer/Footer";
 const Layout = () => {
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <TopNavBar />
       <Header />
-      <SideDrawer />
-    </>
+      <div style={{ flex: 1 }}></div>
+      <Footer />
+    </div>
   );
 };
 
