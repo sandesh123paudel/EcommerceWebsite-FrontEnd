@@ -7,6 +7,7 @@ import {
   Input,
   InputGroup,
   InputRightElement,
+  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -68,8 +69,12 @@ const Footer = () => {
               Support
             </Text>
             <Text fontSize="md">Ranibari Kathmandu 44600 Nepal</Text>
-            <Text fontSize="md">exclusivecollection@gmail.com</Text>
-            <Text fontSize="md">+977 9812345678</Text>
+            <Link fontSize="md" href="mailto:exclusivecollection@gmail.com">
+              exclusivecollection@gmail.com
+            </Link>
+            <Link fontSize="md" href="tel:+9779812345678">
+              +977 9812345678
+            </Link>
           </Stack>
 
           {/* Account */}
@@ -77,14 +82,26 @@ const Footer = () => {
             <Text fontSize="2xl" fontWeight="bold">
               Account
             </Text>
-            <Text fontSize="md">My Account</Text>
+            <Link fontSize="md" href="/account">
+              My Account
+            </Link>
             <HStack>
-              <Text fontSize="md">Login /</Text>
-              <Text fontSize="md">Register</Text>
+              <Link fontSize="md" href="/login">
+                Login /
+              </Link>
+              <Link fontSize="md" href="/register">
+                Register
+              </Link>
             </HStack>
-            <Text fontSize="md">Cart</Text>
-            <Text fontSize="md">Wishlist</Text>
-            <Text fontSize="md">Shop</Text>
+            <Link fontSize="md" href="/cart">
+              Cart
+            </Link>
+            <Link fontSize="md" href="/wishlist">
+              Wishlist
+            </Link>
+            <Link fontSize="md" href="/shop">
+              Shop
+            </Link>
           </Stack>
 
           {/* Quick Links */}
@@ -92,11 +109,21 @@ const Footer = () => {
             <Text fontSize="2xl" fontWeight="bold">
               Quick Links
             </Text>
-            <Text fontSize="md">Privacy Policy</Text>
-            <Text fontSize="md">Terms of Service</Text>
-            <Text fontSize="md">Refund Policy</Text>
-            <Text fontSize="md">FAQ</Text>
-            <Text fontSize="md">Contact</Text>
+            <Link fontSize="md" href="/privacy-policy">
+              Privacy Policy
+            </Link>
+            <Link fontSize="md" href="/terms-of-service">
+              Terms of Service
+            </Link>
+            <Link fontSize="md" href="/refund-policy">
+              Refund Policy
+            </Link>
+            <Link fontSize="md" href="/faq">
+              FAQ
+            </Link>
+            <Link fontSize="md" href="/contact">
+              Contact
+            </Link>
           </Stack>
 
           {/* Download App */}
@@ -116,10 +143,18 @@ const Footer = () => {
                 </Stack>
               </HStack>
               <HStack fontSize="xl" spacing={6}>
-                <Icon as={RiFacebookLine} />
-                <Icon as={BsTwitterX} />
-                <Icon as={FiInstagram} />
-                <Icon as={FaLinkedinIn} />
+                <Link href="https://facebook.com" isExternal>
+                  <Icon as={RiFacebookLine} />
+                </Link>
+                <Link href="https://twitter.com" isExternal>
+                  <Icon as={BsTwitterX} />
+                </Link>
+                <Link href="https://instagram.com" isExternal>
+                  <Icon as={FiInstagram} />
+                </Link>
+                <Link href="https://linkedin.com" isExternal>
+                  <Icon as={FaLinkedinIn} />
+                </Link>
               </HStack>
             </Stack>
           </Stack>
