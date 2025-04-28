@@ -14,7 +14,7 @@ import {
 import React from "react";
 import { BiSend } from "react-icons/bi";
 import { BsTwitterX } from "react-icons/bs";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { RiFacebookLine } from "react-icons/ri";
 
